@@ -1,6 +1,6 @@
 #!/bin/bash
 # TeaSpeak Installer
-# by Sporesirius and WolverinDEV
+# by Sage-BR and WolverinDEV
 
 INSTALLER_VERSION="1.12"
 
@@ -275,8 +275,8 @@ function test_installed() {
 }
 
 function updateScript() {
-    INSTALLER_REPO_URL="https://api.github.com/repos/Sporesirius/TeaSpeak-Installer/releases/latest"
-    INSTALLER_REPO_PACKAGE="https://github.com/Sporesirius/TeaSpeak-Installer/archive/%s.tar.gz"
+    INSTALLER_REPO_URL="https://api.github.com/repos/Sage-BR/TeaSpeak-Installer/releases/latest"
+    INSTALLER_REPO_PACKAGE="https://github.com/Sage-BR/TeaSpeak-Installer/archive/%s.tar.gz"
 
     cyan " "
     cyan "Checking for the latest installer version..."
@@ -410,7 +410,7 @@ function secure_user() {
 cyan " "
 cyan " "
 red "        TeaSpeak Installer"
-cyan "       by Sporesirius and WolverinDEV"
+cyan "       by Sage-BR and WolverinDEV"
 cyan " "
 
 yellow "NOTE: You can exit the script any time with CTRL+C"
